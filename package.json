@@ -1,0 +1,41 @@
+{
+  "name": "@batar/utils",
+  "version": "1.0.0",
+  "description": "前端组工具库",
+  "main": "./lib/common/index.js.js",
+  "module": "./lib/common/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./lib/common/index.js",
+      "require": "./lib/common/index.js"
+    },
+    "./web": {
+      "import": "./lib/web/index.js",
+      "require": "./lib/web/index.js"
+    },
+    "./wxapp": {
+      "import": "./lib/wxapp/index.js",
+      "require": "./lib/wxapp/index.js"
+    },
+    "./h5": {
+      "import": "./lib/h5/index.js",
+      "require": "./lib/h5/index.js"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "zengjiajun",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1",
+    "vitest": "^0.29.7"
+  }
+}
