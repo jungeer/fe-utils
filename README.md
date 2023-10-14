@@ -7,23 +7,23 @@
 ### 📦 安装
 
 ```bash
-npm install @batar/utils
+npm install @fe/utils
 or
-yarn add @batar/utils
+yarn add @fe/utils
 ```
 
 ### 🦄 使用
 
 ```typescript
 // 导入 common 模块的 add 方法
-import { add } from "@batar/utils/common";
+import { add } from "@fe/utils/common";
 
 console.log(add(1, 2)); // 输出 3
 ```
 
 ```typescript
 // 导入 web 模块的 add 方法
-import { add } from "@batar/utils/web";
+import { add } from "@fe/utils/web";
 
 console.log(add(1, 2)); // 输出 3
 ```
